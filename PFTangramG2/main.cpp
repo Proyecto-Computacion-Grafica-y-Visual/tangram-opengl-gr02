@@ -421,7 +421,7 @@ void dibujarSeccionPlantillas() {
 	glPushMatrix();     // Guarda el estado actual de la matriz
 	glLoadIdentity();   // Resetea la matriz a su estado inicial
 
-    // Franja rectangular contenedora
+    // Franja rectangular (contenedor)
     glColor3f(0.22f, 0.26f, 0.31f);
     dibujarPoligonoCuadrangular(
         -1.0f, -1.0f,
